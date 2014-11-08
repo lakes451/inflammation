@@ -1,6 +1,6 @@
 def assign_drug(filename):
     '''Assigns a drug to a filename'''
-    number = int(filename[13:-4])
+    number = int(filename[-6:-4])
     result =''
     if number % 2 == 0:
         result = 'placebo'
