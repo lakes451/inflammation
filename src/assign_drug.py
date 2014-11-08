@@ -1,4 +1,5 @@
 def assign_drug(filename):
+    '''Assigns a drug to a filename'''
     number = int(filename[13:-4])
     result =''
     if number % 2 == 0:
