@@ -6,7 +6,7 @@
 DRUG=$(python src/assign_drug.py $1)
 
 DEST=data/$2/$2-$DRUG.dat
-
+mkdir -p data/$2
 MSG="copy and move $1 to $DEST"
 
 cp $1 $DEST
